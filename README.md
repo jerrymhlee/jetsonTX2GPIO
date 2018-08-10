@@ -29,5 +29,5 @@ gpioSetValue(redLED, on);     //Pull high
 gpioSetValue(redLED, off);    //Pull low
 ```
 
-That's it, very easy. Hope this file helps.
+That's it, very easy. If you like to use C/C++ to control GPIO Pin, just include "jetsonGPIO.h" in the cpp file.
 
