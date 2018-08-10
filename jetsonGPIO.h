@@ -87,13 +87,14 @@ enum jetsonTX1GPIONumber {
 
 enum jetsonTX2GPIONumber {
        gpio398 = 398,      // J21 - Pin 29 - GPIO5
-       gpio392 = 298,      // J21 - Pin 31 - GPIO6
+       gpio298 = 298,      // J21 - Pin 31 - GPIO6
        gpio389 = 389,      // J21 - Pin 33 - GPIO13
        gpio395 = 395,      // J21 - Pin 35 - GPIO19
        gpio388 = 388,      // J21 - Pin 37 - GPIO26
        gpio297 = 297,      // J21 - Pin 32 - GPIO12
        gpio467 = 467,      // J21 - Pin 36 - GPIO16
        gpio394 = 394,      // J21 - Pin 38 - GPIO20
+       gpio393 = 393,      // J21 - Pin 40 - GPIO21
 } ;
 
 
