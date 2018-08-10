@@ -22,13 +22,13 @@ To add more GPIO pins, modify jetsonGPIO.h and add pin numbers you want.
 setup and initialize GPIO388 (Pin37) as output pin on TX2:
 ```
 /* To initialize */
-jetsonTX2GPIONumber control = gpio388; 
-gpioExport(control);
-gpioSetDirection(control,outputPin);
+jetsonTX2GPIONumber LEDPin = gpio388; 
+gpioExport(LEDPin);
+gpioSetDirection(LEDPin,outputPin);
 
 /* To control pin */
-gpioSetValue(redLED, on);     //Pull high
-gpioSetValue(redLED, off);    //Pull low
+gpioSetValue(LEDPin, on);     //Pull high
+gpioSetValue(LEDPin, off);    //Pull low
 ```
 
 That's it, very easy. If you like to use C/C++ to control GPIO Pin, just include "jetsonGPIO.h" in the cpp file.
