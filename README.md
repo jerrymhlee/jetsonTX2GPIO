@@ -26,7 +26,7 @@ jetsonTX2GPIONumber LEDControlPin = gpio388;
 gpioExport(LEDControlPin);
 gpioSetDirection(LEDControlPin,outputPin);
 
-/* To control pin high / low  */
+/* To control pin high or low  */
 gpioSetValue(LEDControlPin, on);     //Pull high
 gpioSetValue(LEDControlPin, off);    //Pull low
 ```
