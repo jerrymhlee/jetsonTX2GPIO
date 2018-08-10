@@ -18,15 +18,16 @@ exampleGPIApp.cpp describes a simple usage case using a tactile button and LED a
 # Description
 To add more GPIO pins, modify jetsonGPIO.h and add pin numbers you want.
 
-Example: setup and initialize GPIO388 (Pin37) as output pin on TX2:
+* Example: 
+setup and initialize GPIO388 (Pin37) as output pin on TX2:
 
 jetsonTX2GPIONumber control = gpio388; 
 gpioExport(control);
 gpioSetDirection(control,outputPin);
 
-
 gpioSetValue(redLED, on);     //Pull high
 gpioSetValue(redLED, off);    //Pull low
 
-That's it, very easy.
+
+That's it, very easy. Hope this file helps.
 
